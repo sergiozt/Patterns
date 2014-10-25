@@ -20,7 +20,7 @@ class FormManager
     /**
      * Get Form Object.
      *
-     * @param string $type . Form Type.
+     * @param string $type. Form Type.
      *
      * @return object|bool.
      */
