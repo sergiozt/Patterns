@@ -7,7 +7,6 @@
  * Date: 10/21/14
  * Time: 4:36 PM
  */
-
 class Singleton
 {
     /**
