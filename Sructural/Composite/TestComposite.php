@@ -16,6 +16,6 @@ $army = new Army();
 $army->addUnit($zerg);
 $army->addUnit($org);
 
-echo $zerg->getStrength(). PHP_EOL;;
-echo $army->getStrength(). PHP_EOL;;
-var_export(get_defined_constants (true));
+echo $zerg->getStrength() . PHP_EOL;;
+echo $army->getStrength() . PHP_EOL;;
+var_export(get_defined_constants(true));

@@ -1,10 +1,10 @@
 <?php
+
 /**
- * User: Sergii Zheleznytskyi 
+ * User: Sergii Zheleznytskyi
  * Date: 06.11.14
  * Time: 14:16
  */
-
 class Army extends CompositeUnit
 {
     /**
@@ -16,10 +16,10 @@ class Army extends CompositeUnit
     {
         $units = $this->_units();
         $strength = 0;
-        foreach($units as $unit) {
-            $strength +=$unit->getStrength();
+        foreach ($units as $unit) {
+            $strength += $unit->getStrength();
         }
 
-        return  'Army strength is: ' . $strength;
+        return 'Army strength is: ' . $strength;
     }
 }

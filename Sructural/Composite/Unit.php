@@ -1,10 +1,10 @@
 <?php
+
 /**
  * User: Sergii Zheleznytskyi
  * Date: 06.11.14
  * Time: 12:48
  */
-
 abstract class Unit
 {
     /**

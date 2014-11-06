@@ -1,10 +1,10 @@
 <?php
+
 /**
- * User: Sergii Zheleznytskyi 
+ * User: Sergii Zheleznytskyi
  * Date: 06.11.14
  * Time: 12:48
  */
-
 class Org extends Unit
 {
     /**

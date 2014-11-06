@@ -1,10 +1,10 @@
 <?php
+
 /**
- * User: Sergii Zheleznytskyi 
+ * User: Sergii Zheleznytskyi
  * Date: 06.11.14
  * Time: 12:48
  */
-
 abstract class CompositeUnit extends Unit
 {
 
@@ -31,7 +31,7 @@ abstract class CompositeUnit extends Unit
         $this->_units = array_udiff(
             $this->_units,
             array($unit),
-            function($a, $b){
+            function ($a, $b) {
                 return ($a === $b) ? 0 : 1;
             }
         );
@@ -43,7 +43,7 @@ abstract class CompositeUnit extends Unit
     public function addUnit(Unit $unit)
     {
         if (in_array($unit, $this->_units, true)) {
-           return;
+            return;
         }
 
         $this->_units[] = $unit;
