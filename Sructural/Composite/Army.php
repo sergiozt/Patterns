@@ -8,7 +8,7 @@
 class Army extends CompositeUnit
 {
     /**
-     * Get All Army Strength.
+     * Get all army strength.
      *
      * @return int
      */

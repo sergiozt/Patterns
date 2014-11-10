@@ -6,7 +6,7 @@
  */
 
 /**
- * Builder Class. Create Player Object. Has Abstract Methods.
+ * Builder Class. Create Player object. Has abstract methods.
  *
  */
 abstract class Builder
@@ -14,7 +14,7 @@ abstract class Builder
     protected $_player;
 
     /**
-     * Create Player Object.
+     * Create Player object.
      *
      */
     public function initPlayer()

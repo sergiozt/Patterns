@@ -10,7 +10,7 @@ class WebService implements RendererInterface
     protected $_data;
 
     /**
-     * Set Data To Variable.
+     * Set data to variable.
      *
      */
     public function __construct($data)
@@ -19,7 +19,7 @@ class WebService implements RendererInterface
     }
 
     /**
-     * Render Data.
+     * Render data.
      *
      * @return mixed.
      */

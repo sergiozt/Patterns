@@ -8,7 +8,7 @@
 abstract class AbstractConfig
 {
     /**
-     * @var mixed $_storage Storage Data.
+     * @var mixed $_storage Storage data.
      */
     protected $_storage;
 

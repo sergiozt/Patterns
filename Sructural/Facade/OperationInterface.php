@@ -8,14 +8,14 @@
 interface OperationInterface
 {
     /**
-     * Open Transaction.
+     * Open transaction.
      *
      * @return string
      */
     function openTransaction();
 
     /**
-     * Close Transaction.
+     * Close transaction.
      *
      * @return string
      */
@@ -25,7 +25,7 @@ interface OperationInterface
     /**
      * Transfer Money.
      *
-     * @param mixed $amount To Transfer.
+     * @param mixed $amount. Amount to transfer.
      *
      * @return string
      */

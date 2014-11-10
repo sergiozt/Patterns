@@ -13,7 +13,7 @@ class Facade
     protected $_amount;
 
     /**
-     * Set The Instance Of The Class To Properties.
+     * Set the instance of the class to properties.
      *
      * @param OperationInterface $bank.
      * @param OperationInterface $client.
@@ -28,7 +28,7 @@ class Facade
     }
 
     /**
-     * Transfer Money.
+     * Transfer money.
      */
     public function transfer($amount)
     {
@@ -39,7 +39,7 @@ class Facade
     }
 
     /**
-     * Open TransAction.
+     * Open transaction.
      */
     protected function _openTransAction()
     {
@@ -49,7 +49,7 @@ class Facade
     }
 
     /**
-     * Transfer Money.
+     * Transfer money.
      */
     protected function _transferMoney()
     {
@@ -59,7 +59,7 @@ class Facade
     }
 
     /**
-     * Close TransAction.
+     * Close transAction.
      */
     protected function _closeTransAction()
     {

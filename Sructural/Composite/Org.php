@@ -8,12 +8,12 @@
 class Org extends Unit
 {
     /**
-     * Serg Strength.
+     * Org strength.
      */
     CONST STRENGTH = 4;
 
     /**
-     * Get Serg Strength.
+     * Get Org Strength.
      *
      * @return int
      */

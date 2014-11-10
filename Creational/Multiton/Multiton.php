@@ -10,12 +10,12 @@
 class Multiton
 {
     /**
-     * @var object|null Reference To Singleton Instance.
+     * @var object|null reference to Singleton instance.
      */
     private static $_instances = array();
 
     /**
-     * Prevent To Create Object From Outside.
+     * Prevent to create object from outside.
      */
     private function __construct()
     {
@@ -23,8 +23,8 @@ class Multiton
     }
 
     /**
-     * Gets The Instance With The given Name.
-     * Uses Lazy Initialization.
+     * Gets the instance with the given name.
+     * Uses lazy initialization.
      * @param int|string $instanceName
      *
      * @return object
@@ -39,7 +39,7 @@ class Multiton
     }
 
     /**
-     * Prevent To Clone The Instance.
+     * Prevent to clone the instance.
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class Multiton
     }
 
     /**
-     * Prevent To Serialize The Instance.
+     * Prevent to serialize the instance.
      *
      * @return void
      */

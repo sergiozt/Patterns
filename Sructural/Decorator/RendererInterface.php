@@ -8,7 +8,7 @@
 interface RendererInterface
 {
     /**
-     * Render Data.
+     * Render data.
      */
     function render();
 }

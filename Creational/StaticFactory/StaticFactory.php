@@ -8,19 +8,19 @@
 class FormManager
 {
     /**
-     * Form Register Type.
+     * Form register type.
      */
     const REGISTER_FROM     = 'register';
 
     /**
-     * Form Post Type.
+     * Form post type.
      */
     const POST_FROM         = 'post';
 
     /**
      * Get Form Object.
      *
-     * @param string $type. Form Type.
+     * @param string $type. form type.
      *
      * @return object|bool.
      */
@@ -42,7 +42,7 @@ class FormManager
 abstract class Form
 {
     /**
-     * Generate Form Name.
+     * Generate form name.
      *
      * @return string.
      */
@@ -52,7 +52,7 @@ abstract class Form
 class RegisterForm extends Form
 {
     /**
-     * Generate Form Name.
+     * Generate form name.
      *
      * @return string.
      */
@@ -65,7 +65,7 @@ class RegisterForm extends Form
 class PostForm extends Form
 {
     /**
-     * Generate Form Name.
+     * Generate form name.
      *
      * @return string.
      */

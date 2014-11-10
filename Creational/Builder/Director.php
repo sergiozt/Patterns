@@ -13,7 +13,7 @@ class Director
     protected $_builder;
 
     /**
-     * The Director Doesn't Know About Concrete Player Type.
+     * The Director doesn't know about concrete player type.
      *
      * @param Builder $builder
      *
@@ -28,7 +28,7 @@ class Director
     }
 
     /**
-     * Get Built Player Object.
+     * Get built Player object.
      *
      * @return Builder
      */

@@ -8,7 +8,7 @@
 class ArrayConfig extends AbstractConfig implements Parameters
 {
     /**
-     * Get Parameter.
+     * Get parameter.
      *
      * @param string|int $key
      * @param null $default

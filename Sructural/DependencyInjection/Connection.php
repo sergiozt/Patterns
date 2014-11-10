@@ -12,7 +12,7 @@ class Connection
      */
     protected $_configuration;
     /**
-     * @var Parameters. Connected Host.
+     * @var Parameters. Connected host.
      */
     protected $_host;
 
@@ -25,7 +25,7 @@ class Connection
     }
 
     /**
-     * Connection Using The Injection Config.
+     * Connection using the injection config.
      */
     public function connect()
     {

@@ -13,7 +13,7 @@ interface Product
 {
 
     /**
-     * Return Product Name.
+     * Return product name.
      *
      * @return string
      */
@@ -29,7 +29,7 @@ abstract class AbstractFactory
     /**
      * Return Fabric.
      *
-     * @param string $type. Fabric Type.
+     * @param string $type. Fabric type.
      *
      * @return AbstractFactory.
      *
@@ -47,7 +47,7 @@ abstract class AbstractFactory
     }
 
     /**
-     * Return Product.
+     * Return product.
      *
      * @return Product
      */
@@ -61,7 +61,7 @@ class FirstFactory extends AbstractFactory
 {
 
     /**
-     * Get Product Object.
+     * Get Product object.
      *
      * @return Product
      */
@@ -78,7 +78,7 @@ class SimpleProduct implements Product
 {
 
     /**
-     * Return Product Name.
+     * Return product name.
      *
      * @return string
      */
@@ -94,7 +94,7 @@ class SecondFactory extends AbstractFactory
 {
 
     /**
-     * Return Product Name.
+     * Return product name.
      *
      * @return string
      */
@@ -111,7 +111,7 @@ class ConfigurableProduct implements Product
 {
 
     /**
-     * Return Product Name.
+     * Return product name.
      *
      * @return string
      */

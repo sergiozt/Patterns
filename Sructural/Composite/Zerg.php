@@ -8,12 +8,12 @@
 class Zerg extends Unit
 {
     /**
-     * Serg Strength.
+     * Zerg strength.
      */
     CONST STRENGTH = 5;
 
     /**
-     * Get Serg Strength.
+     * Get Zerg strength.
      *
      * @return int
      */

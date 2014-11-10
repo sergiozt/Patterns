@@ -70,7 +70,7 @@ class BundleFabric implements Fabric
 class ConfigurableProduct implements Product
 {
     /**
-     * Get Product Type.
+     * Get product type.
      *
      * @return string.
      */
@@ -86,7 +86,7 @@ class ConfigurableProduct implements Product
 class BundleProduct implements Product
 {
     /**
-     * Get Product Type.
+     * Get product type.
      *
      * @return string.
      */

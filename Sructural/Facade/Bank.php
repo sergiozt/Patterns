@@ -8,7 +8,7 @@
 class Bank implements OperationInterface
 {
   /**
-   * Open Bank Transaction.
+   * Open bank transaction.
    *
    * @return string
    */
@@ -18,7 +18,7 @@ class Bank implements OperationInterface
     }
 
     /**
-     * Close Bank Transaction.
+     * Close bank transaction.
      *
      * @return string
      */
@@ -28,9 +28,9 @@ class Bank implements OperationInterface
     }
 
     /**
-     * Transfer Bank Money.
+     * Transfer bank money.
      *
-     * @param mixed $amount To Transfer.
+     * @param mixed $amount. Amount to transfer.
      *
      * @return string
      */

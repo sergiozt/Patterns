@@ -14,7 +14,7 @@ class Player
     protected $_volume;
 
     /**
-     * Set Video Codec.
+     * Set video codec.
      * @param string $videoCodec .
      */
     public function setVideoCodec($videoCodec)
@@ -23,7 +23,7 @@ class Player
     }
 
     /**
-     * Set Audio Codec.
+     * Set audio codec.
      * @param string $audioCodec .
      */
     public function setAudioCodec($audioCodec)
@@ -32,7 +32,7 @@ class Player
     }
 
     /**
-     * Set Volume.
+     * Set volume.
      * @param Builder $volume .
      */
     public function setVolume($volume)
@@ -41,7 +41,7 @@ class Player
     }
 
     /**
-     * Play Record.
+     * Play record.
      * @param string $recordName
      *
      * @return string

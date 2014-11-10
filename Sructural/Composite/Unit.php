@@ -8,7 +8,7 @@
 abstract class Unit
 {
     /**
-     * Check If Class Is Composite.
+     * Check if class is Composite.
      *
      * @return int
      */
@@ -18,7 +18,7 @@ abstract class Unit
     }
 
     /**
-     * Get Serg Strength.
+     * Get strength.
      *
      * @return mixed
      */

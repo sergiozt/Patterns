@@ -13,7 +13,7 @@ abstract class Decorator implements RendererInterface
     protected $_wrapped;
 
     /**
-     * Set RendererInterface To Variable.
+     * Set RendererInterface to variable.
      */
     public function __construct(RendererInterface $wrappable)
     {

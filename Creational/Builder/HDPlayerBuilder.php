@@ -13,7 +13,7 @@ class HDPlayerBuilder extends Builder
     protected $_player;
 
     /**
-     * Set Video Codec.
+     * Set video codec.
      */
     public function setVideoCodec()
     {
@@ -21,7 +21,7 @@ class HDPlayerBuilder extends Builder
     }
 
     /**
-     * Set Audio Codec.
+     * Set audio codec.
      */
     public function setAudioCodec()
     {
@@ -29,7 +29,7 @@ class HDPlayerBuilder extends Builder
     }
 
     /**
-     * Set Volume.
+     * Set volume.
      */
     public function setVolume()
     {

@@ -8,7 +8,7 @@
 class Log
 {
     /**
-     * Open Client Transaction.
+     * Open client transaction.
      *
      * @param $massage.
      *

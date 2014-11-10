@@ -14,7 +14,7 @@ abstract class CompositeUnit extends Unit
     private $_units = array();
 
     /**
-     * Check If Class Is Composite.
+     * Check if class is Composite.
      *
      * @return int
      */
@@ -24,7 +24,7 @@ abstract class CompositeUnit extends Unit
     }
 
     /**
-     * Remove Unit.
+     * Remove unit.
      */
     public function removeUnit(Unit $unit)
     {
@@ -38,7 +38,7 @@ abstract class CompositeUnit extends Unit
     }
 
     /**
-     * Add Unit.
+     * Add unit.
      */
     public function addUnit(Unit $unit)
     {
@@ -50,7 +50,7 @@ abstract class CompositeUnit extends Unit
     }
 
     /**
-     * Get All Units.
+     * Get aal units.
      */
     protected function _units()
     {

@@ -10,12 +10,12 @@
 class Singleton
 {
     /**
-     * @var object|null Reference To Singleton Instance.
+     * @var object|null Reference to singleton instance.
      */
     private static $_instance;
 
     /**
-     * Prevent To Create Object From Outside.
+     * Prevent to create object from outside.
      */
     private function __construct()
     {
@@ -23,7 +23,7 @@ class Singleton
     }
 
     /**
-     * Create Object On First Usage.
+     * Create object on first usage.
      *
      * @return object
      */
@@ -36,7 +36,7 @@ class Singleton
     }
 
     /**
-     * Prevent To Clone The Instance.
+     * Prevent to clone the instance.
      *
      * @return void
      */
@@ -46,7 +46,7 @@ class Singleton
     }
 
     /**
-     * Prevent To Serialize The Instance.
+     * Prevent to serialize the instance.
      *
      * @return void
      */

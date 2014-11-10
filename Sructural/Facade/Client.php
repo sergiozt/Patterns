@@ -9,7 +9,7 @@
 class Client implements OperationInterface
 {
     /**
-     * Open Client Transaction.
+     * Open client transaction.
      *
      * @return string
      */
@@ -19,7 +19,7 @@ class Client implements OperationInterface
     }
 
     /**
-     * Close Client Transaction.
+     * Close client transaction.
      *
      * @return string
      */
@@ -29,9 +29,9 @@ class Client implements OperationInterface
     }
 
     /**
-     * Transfer Client Money.
+     * Transfer client money.
      *
-     * @param mixed $amount To Transfer.
+     * @param mixed $amount. Amount to transfer.
      *
      * @return string
      */

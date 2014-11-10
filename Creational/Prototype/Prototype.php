@@ -15,7 +15,7 @@ class DocumentPrototype
     protected $_list;
 
     /**
-     * Assign Object To Protected Properties.
+     * Assign abject protected properties.
      *
      * @param Paragraph $paragraph .
      * @param Header $header .
@@ -54,12 +54,12 @@ class DocumentPrototype
 }
 
 /**
- * Paragraph Class. Format Text.
+ * Paragraph class. Format text.
  */
 class Paragraph
 {
     /**
-     * Return Format Information.
+     * Return format information.
      *
      * @return string
      */
@@ -70,12 +70,12 @@ class Paragraph
 }
 
 /**
- * Header Class. Generate Header Info.
+ * Header class. Generate header info.
  */
 class Header
 {
     /**
-     * Return Generated Header.
+     * Return generated header.
      *
      * @return string
      */
@@ -86,12 +86,12 @@ class Header
 }
 
 /**
- * Header Class. Generate Lists.
+ * Header class. Generate lists.
  */
 class Lists
 {
     /**
-     * Return Generated List.
+     * Return generated list.
      *
      * @return string
      */
