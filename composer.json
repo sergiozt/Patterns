@@ -1,0 +1,7 @@
+{
+    "name": "sergio/patterns",
+    "description": "Php patterns.",
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
